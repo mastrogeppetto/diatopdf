@@ -1,5 +1,5 @@
-# Convert dia files to pdf without blocky artifacts
-Dia (http://dia-installer.de/) is an open source application for creating technical diagrams.
+# Convert dia files to a pdf without blocky artifacts
+[Dia](http://dia-installer.de/) is an open source application for creating technical diagrams.
 Exporting a diagram in pdf using the export tool provided by the GUI produces a low quality image. The way to obtain a
 better result is to first convert the dia file to Postscript, and next convert the result to pdf, as suggested in many
 places on the Web.
@@ -25,4 +25,4 @@ and in case the directory is not there add it with
 
     $ export PATH=$HOME/bin:$PATH
 
-and next append that same statement at the end of your .bashrc (or .zshrc on some systems). 
+and next append that same statement to your .bashrc (or .zshrc on some systems). 
