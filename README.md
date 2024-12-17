@@ -25,4 +25,4 @@ and in case the directory is not there add it with
 
     $ export PATH=$HOME/bin:$PATH
 
-and next append that same statement to your .bashrc (or .zshrc on some systems). 
+and next append that same statement to your .bashrc (or .zshrc on some systems) to run it each time you log in a terminal. . 
